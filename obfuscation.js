@@ -33,7 +33,7 @@ function obfuscate(sScript)
     return sChar;
   }
   
-  var sObfuscated = " ";
+  var sObfuscated = "' '";
   for (var c = 0, cc = sScript.length; c < cc; ++c)
   {
     sObfuscated += "+";
